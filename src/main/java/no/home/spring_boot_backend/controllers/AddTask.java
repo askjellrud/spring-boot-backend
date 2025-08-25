@@ -1,6 +1,6 @@
 package no.home.spring_boot_backend.controllers;
 
-public class LeggTilTodoRequest {
+public class AddTask {
     String title;
 
     public String getTitle() {

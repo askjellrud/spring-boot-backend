@@ -1,6 +1,6 @@
 package no.home.spring_boot_backend.model;
 
-public class Todo {
+public class Task {
     private Long id;
     private String title;
     private boolean completed;

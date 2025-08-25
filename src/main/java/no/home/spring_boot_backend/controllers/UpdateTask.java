@@ -1,6 +1,6 @@
 package no.home.spring_boot_backend.controllers;
 
-public class OppdaterTodoRequest {
+public class UpdateTask {
 
     private String title;
 
