@@ -1,10 +1,9 @@
-curl -X POST "http://localhost:8080/todos" \
+curl -X POST "http://localhost:8080/tasks" \
      -H "Content-Type: application/json" \
-     -d '{"title": "Ny todo"}'
+     -d '{"title": "new task"}'
 
-
-curl -X PUT "http://localhost:8080/todos/1" \
+curl -X PUT "http://localhost:8080/tasks/1" \
      -H "Content-Type: application/json" \
-     -d '{"title": "Oppdatert todo"}'
+     -d '{"title": "Updated task"}'
 
-curl -X DELETE "http://localhost:8080/todos/1"
+curl -X DELETE "http://localhost:8080/tasks/1"

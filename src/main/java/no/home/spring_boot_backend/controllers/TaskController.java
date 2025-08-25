@@ -18,8 +18,8 @@ public class TaskController {
     private Map<Long, Task> tasks = new HashMap<>();
 
     @GetMapping()
-    public ResponseEntity<Collection<Task>> hentAlle() {
-        return ResponseEntity.status(200).body(tasks.values());
+    public ResponseEntity<Collection<Task>> getAll() {
+        return ResponseEntity.ok().body(tasks.values());
     }
 
     @GetMapping("/{id}")
