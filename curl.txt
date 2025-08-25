@@ -1,0 +1,10 @@
+curl -X POST "http://localhost:8080/todos" \
+     -H "Content-Type: application/json" \
+     -d '{"title": "Ny todo"}'
+
+
+curl -X PUT "http://localhost:8080/todos/1" \
+     -H "Content-Type: application/json" \
+     -d '{"title": "Oppdatert todo"}'
+
+curl -X DELETE "http://localhost:8080/todos/1"
